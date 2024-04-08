@@ -1,10 +1,9 @@
-import Imgsection from "./Imgsection"
 
 
 const Aboutsection = () => {
     return (
         <section id="about">
-            <div className="grid grid-cols-1 bg-gray-100 py-4 xl:py-36">
+            <div className="grid grid-cols-1 bg-gray-100 py-28 xl:py-36">
                 <div className="my-auto ">
                     <div className="px-10 lg:px-20 xl:px-20 2xl:px-32 ">
                         <div className='w-full space-y-5 xl:space-y-24'>
