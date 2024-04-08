@@ -16,7 +16,7 @@ const Herosection = () => {
                     </div>
                     <div className="absolute inset-0 px-10 flex items-center justify-start">
                         <div className='w-2/3 xl:w-3/6'>
-                            <h1 className="text-2xl lg:text-5xl xl:text-5xl 2xl:text-6xl text-white font-semibold font-sans text-left">
+                            <h1 className="text-xl lg:text-5xl xl:text-5xl 2xl:text-6xl text-white font-semibold font-sans text-left">
                                 We are the leaders in Interior Planning
                             </h1>
                         </div>
