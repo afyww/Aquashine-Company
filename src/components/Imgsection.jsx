@@ -7,11 +7,11 @@ function Imgsection() {
         <div className="h-fit">
             <div className="grid grid-cols-2 mx-auto space-x-8">
                 <div className="space-y-8">
-                    <img className="h-fit w-fit rounded-l-xl" src={service1} alt="" />
-                    <img className="h-fit w-fit rounded-l-xl" src={service3} alt="" />
+                    <img className="h-1/3 xl:h-fit w-fit rounded-l-xl" src={service1} alt="" />
+                    <img className="h-1/3 xl:h-fit w-fit rounded-l-xl" src={service3} alt="" />
                 </div>
                 <div>
-                    <img className="h-full w-fit rounded-r-xl" src={service2} alt="" />
+                    <img className="h-4/5 xl:h-full w-fit rounded-r-xl" src={service2} alt="" />
                 </div>
             </div>
         </div>
