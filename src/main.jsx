@@ -16,8 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <main className='flex min-h-screen flex-col'>
       <Navbar />
-      <Herosection />
-      <div className='w-full mx-auto max-w-7xl'>
+      <div className='w-full mx-auto'>
+        <Herosection />
         <Aboutsection />
         <Servicesection />
         <Projectsection />
