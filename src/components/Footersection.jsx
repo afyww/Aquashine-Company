@@ -5,7 +5,7 @@ const Footersection = () => {
         <footer className="h-fit w-full bg-gray-800 mx-auto">
             <div className="">
                 <div className=" grid grid-cols-3 xl:grid-cols-4 p-3 xl:p-6 space-y-4 xl:space-y-0">
-                    <div className="my-auto">
+                    <div className="my-auto col-span-3 xl:col-span-1">
                         <a href="/">
                             <img className='w-3/4 h-3/4' src={logo} alt="" />
                         </a>
@@ -34,22 +34,9 @@ const Footersection = () => {
                             <a className='block text-white text-xs' href="#contact">Contact</a>
                         </div>
                     </div>
-                    <div className='space-y-4 mx-auto col-span-3 xl:col-span-1'>
+                    <div className='space-y-4 mx-auto'>
                         <div>
-                            <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>News Letter</h1>
-                        </div>
-                        <div className='text-left space-y-3'>
-                            <div>
-                                <h1 className='text-white text-xs'>Subscribe Our News Letter & Get All News Latest</h1>
-                            </div>
-                            <div className='space-y-3'>
-                                <div>
-                                <input className='p-3 w-full rounded-xl' placeholder='Email' type="email" />
-                                </div>
-                                <div className=' text-yellow-500 p-2 w-full text-center mx-auto border-b-2 border-yellow-500'>
-                                <button className=''>Subscribe</button>
-                                </div>
-                            </div>
+                            <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Connect With Us</h1>
                         </div>
                     </div>
                 </div>

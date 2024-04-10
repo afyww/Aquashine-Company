@@ -51,7 +51,7 @@ const Navbar = () => {
         <section>
             <div className='' />
             <nav className={`fixed z-50 top-0 right-0 rounded-b-xl left-0 shadow-xl ${scrolling || isMobileView ? 'bg-gray-800' : 'bg-transparent'}`}>
-                <div className="mx-5 p-2 xl:mx-14">
+                <div className="mx-5 p-1 xl:mx-10">
                     <div className="flex justify-between">
                         <div className=''>
                             <a href="/" className="">
@@ -67,7 +67,7 @@ const Navbar = () => {
                         </div>
                         <div className="md:hidden flex items-center">
                             <button className="mobile-menu-button" onClick={toggleMobileMenu}>
-                                <svg className="h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="100px" height="100px">
+                                <svg className="h-6 w-6 bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="100px" height="100px">
                                     <path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z" />
                                 </svg>
                             </button>
