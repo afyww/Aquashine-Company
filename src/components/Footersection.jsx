@@ -44,10 +44,10 @@ const Footersection = () => {
                             </div>
                             <div className='space-y-3'>
                                 <div>
-                                <input className='p-2 w-full rounded-xl' placeholder='Email' type="email" />
+                                <input className='p-3 w-full rounded-xl' placeholder='Email' type="email" />
                                 </div>
-                                <div className=' bg-yellow-500 p-2 w-full text-center mx-auto rounded-xl'>
-                                <button className='text-white'>Subscribe</button>
+                                <div className=' text-yellow-500 p-2 w-full text-center mx-auto border-b-2 border-yellow-500'>
+                                <button className=''>Subscribe</button>
                                 </div>
                             </div>
                         </div>

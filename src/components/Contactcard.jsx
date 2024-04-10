@@ -103,7 +103,7 @@ function Contactcard() {
                     <div>
                         <button
                             type="submit"
-                            className="bg-green-500 text-sm xl:text-xl text-gray-100 rounded-xl w-full p-3 hover:bg-green-700"
+                            className="text-sm xl:text-xl text-emerald-600 border-emerald-400 border-b-2 w-full p-2"
                         >
                             Send Message on WhatsApp
                         </button>
