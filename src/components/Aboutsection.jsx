@@ -3,7 +3,7 @@ import hero from '../assets/images/momon.jpeg'
 const Aboutsection = () => {
     return (
         <section id="about">
-            <div className="grid grid-cols-1 bg-gray-100 py-28 xl:py-36">
+            <div className="grid grid-cols-1 bg-gray-100 py-20 xl:py-36">
                 <div className="my-auto ">
                     <div className="px-10 lg:px-20 xl:px-20 2xl:px-32 ">
                         <div className='w-full space-y-5 xl:space-y-12'>
@@ -25,8 +25,8 @@ const Aboutsection = () => {
                                         taman, aviary, dan vertical garden".
                                     </h1>
                                     <div className='flex space-x-3'>
-                                        <a className='p-2 rounded-xl bg-green-500 px-5 text-white text-lg font-light' href="#contact">Lets Talk</a>
-                                        <a className='p-2 rounded-xl bg-blue-500 px-5 text-lg text-white font-light' href="#project">See Our Projects</a>
+                                        <a className='p-2 rounded-xl bg-green-500 px-2 xl:px-5 text-white text-lg font-light' href="#contact">Lets Talk</a>
+                                        <a className='p-2 rounded-xl bg-blue-500 px-2 xl:px-5 text-lg text-white font-light' href="#project">See Our Projects</a>
                                     </div>
                                 </div>
                                 <div className='order-1 xl:order-2'>

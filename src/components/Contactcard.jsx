@@ -71,11 +71,15 @@ function Contactcard() {
     };
 
     return (
-        <div className=" p-10 bg-gray-100 rounded-xl">
+        <div className=" p-8 bg-white rounded-xl">
             <form onSubmit={handleSubmit}>
-                <div className="space-y-4">
+                <div className="space-y-1">
+                    <div className="space-y-2">
+                        <h1 className="text-xl xl:text-4xl font-extrabold text-left">Get In Touch With Us</h1>
+                        <h1 className="text-emerald-600 text-sm xl:text-lg">And We Will Reply Immediately.</h1>
+                    </div>
                     <div>
-                        <label className="text-gray-800 block">Your Name</label>
+                        <label className="text-sm xl:text-lg text-extralight text-black text-left">Your Name</label>
                         <input
                             type="text"
                             name="name"
@@ -86,7 +90,7 @@ function Contactcard() {
                         />
                     </div>
                     <div>
-                        <label className="text-gray-100 block">Your Message</label>
+                        <label className="text-sm xl:text-lg text-extralight text-black text-left">Your Message</label>
                         <textarea
                             name="message"
                             value={formData.message}
@@ -99,7 +103,7 @@ function Contactcard() {
                     <div>
                         <button
                             type="submit"
-                            className="bg-green-500 text-gray-100 rounded-xl w-full p-3 hover:bg-green-700"
+                            className="bg-green-500 text-sm xl:text-xl text-gray-100 rounded-xl w-full p-3 hover:bg-green-700"
                         >
                             Send Message on WhatsApp
                         </button>
