@@ -1,3 +1,4 @@
+import Contactcard from "./Contactcard"
 
 
 function Contactsection() {
@@ -10,7 +11,8 @@ function Contactsection() {
               <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-black font-semibold  border-black border-b-2">
                 " Our Contact "
               </h1>
-              <div className="grid grid-cols-1 bg-gray-100 p-2 xl:p-10 rounded-2xl">
+              <div className="grid grid-cols-1 xl:grid-cols-2">
+                <Contactcard />
               </div>
             </div>
           </div>
