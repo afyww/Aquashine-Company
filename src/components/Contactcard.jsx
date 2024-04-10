@@ -71,11 +71,11 @@ function Contactcard() {
     };
 
     return (
-        <div className=" p-8 bg-white rounded-xl">
+        <div className="p-4 xl:p-8 bg-white rounded-xl">
             <form onSubmit={handleSubmit}>
                 <div className="space-y-1">
                     <div className="space-y-2">
-                        <h1 className="text-xl xl:text-4xl font-extrabold text-left">Get In Touch With Us</h1>
+                        <h1 className="text-xl xl:text-4xl font-semibold text-left">Get In Touch With Us</h1>
                         <h1 className="text-emerald-600 text-sm xl:text-lg">And We Will Reply Immediately.</h1>
                     </div>
                     <div>

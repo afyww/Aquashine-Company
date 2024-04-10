@@ -32,7 +32,7 @@ function Contactsection() {
               </motion.div>
               <motion.div {...Motiony}>
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-10">
-                  <div className="my-auto">
+                  <div className="my-auto h-full">
                     <Contactus />
                   </div>
                   <div className="my-auto">

@@ -12,7 +12,7 @@ const Herosection = () => {
                                 type="text/html"
                                 height="768"
                                 src="https://www.youtube.com/embed/ZeKwsABnfcM?autoplay=1&loop=1&controls=0&mute=1"
-                                frameBorder="0"
+                                frameborder="0"
                                 className="w-screen"
                             ></iframe>
                         </div>
@@ -22,7 +22,7 @@ const Herosection = () => {
                                 type="text/html"
                                 height="810"
                                 src="https://www.youtube.com/embed/nV28eDzTs10?autoplay=1&loop=1&controls=0&mute=1"
-                                frameBorder="0"
+                                frameborder="0"
                                 className="w-screen"
                             ></iframe>
                         </div>
