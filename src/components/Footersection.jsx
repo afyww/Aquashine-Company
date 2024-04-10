@@ -53,7 +53,7 @@ const Footersection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='text-center p-2.5 xl:p-5 my-auto border-t border-gray-100'>
+                <div className='text-center p-2.5 xl:p-5 my-auto border-t mx-10 border-gray-100'>
                     <h1 className='text-white text-xs'>Copyright 2024</h1>
                 </div>
             </div>
