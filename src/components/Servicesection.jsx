@@ -30,12 +30,12 @@ function Servicesection() {
               </motion.div>
               <motion.div {...Motiony}>
                 <div className="grid grid-cols-1 xl:grid-cols-3 gap-5 p-2 xl:p-8 rounded-2xl">
-                  <div className="space-y-10 bg-white px-5 xl:px-10 p-3 rounded-xl">
-                    <h1 className="text-black text-2xl xl:text-4xl font-extrabold">Aquascape</h1>
-                    <p className="text-xs xl:text-sm text-extralight text-black text-left">Aquascape adalah seni menciptakan dan merancang taman air di dalam akuarium. Ini melibatkan penataan tanaman air, batu, kayu, substrat, dan elemen dekoratif lainnya secara estetis untuk menciptakan lanskap air yang menarik dan alami. Aquascape biasanya dilakukan dalam akuarium yang dirancang khusus untuk meniru lingkungan alami seperti hutan, sungai, dan danau.
+                  <div className="space-y-10 bg-emerald-600 px-5 xl:px-10 p-3 rounded-xl">
+                    <h1 className="text-white text-2xl xl:text-4xl font-extrabold">Aquascape</h1>
+                    <p className="text-xs xl:text-sm text-extralight text-white text-left">Aquascape adalah seni menciptakan dan merancang taman air di dalam akuarium. Ini melibatkan penataan tanaman air, batu, kayu, substrat, dan elemen dekoratif lainnya secara estetis untuk menciptakan lanskap air yang menarik dan alami. Aquascape biasanya dilakukan dalam akuarium yang dirancang khusus untuk meniru lingkungan alami seperti hutan, sungai, dan danau.
                       Dalam praktiknya, aquascaping merupakan kombinasi antara seni dan ilmu pengetahuan, di mana para aquascaper</p>
                     <div className="">
-                      <a className="text-black text-xl xl:text-2xl font-extrabold border-black border-b-4" href="">Learn more</a>
+                      <a className="text-white text-xl xl:text-2xl font-extrabold border-white border-b-4" href="">Learn more</a>
                     </div>
                   </div>
                   <div className="space-y-10 bg-white px-5 xl:px-10 p-3 rounded-xl">
@@ -47,12 +47,12 @@ function Servicesection() {
                     </div>
 
                   </div>
-                  <div className="space-y-10 bg-white px-5 xl:px-10 p-3 rounded-xl">
-                    <h1 className="text-black text-2xl xl:text-4xl font-extrabold">Terrarium</h1>
-                    <p className="text-xs xl:text-sm text-extralight text-black text-left">
+                  <div className="space-y-10 bg-emerald-600 px-5 xl:px-10 p-3 rounded-xl">
+                    <h1 className="text-white text-2xl xl:text-4xl font-extrabold">Terrarium</h1>
+                    <p className="text-xs xl:text-sm text-extralight text-white text-left">
                       Terrarium adalah wadah transparan yang digunakan untuk menanam dan menampilkan tanaman serta kadang-kadang hewan kecil dalam lingkungan yang dikontrol. Terrarium sering kali terbuat dari kaca atau plastik yang memungkinkan cahaya masuk dan memungkinkan pengamatan tanaman atau hewan di dalamnya. Lingkungan di dalam terrarium, termasuk kelembaban, suhu, dan cahaya, dapat dikendalikan untuk menciptakan kondisi optimal.</p>
                     <div className="">
-                      <a className="text-black text-xl xl:text-2xl font-extrabold border-black border-b-4" href="">Learn more</a>
+                      <a className="text-white text-xl xl:text-2xl font-extrabold border-white border-b-4" href="">Learn more</a>
                     </div>
                   </div>
                 </div>
