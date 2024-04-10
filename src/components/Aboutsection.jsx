@@ -15,7 +15,7 @@ const Aboutsection = () => {
                                     <div className='w-3/4'>
                                     <h1 className='text-2xl xl:text-4xl font-extrabold text-left'>Berpengelaman Lebih Dari 4 Tahun</h1>
                                     </div>
-                                    <h1 className="font-light text-xs lg:text-xl xl:text-xl 2xl:text-6xl text-left text-black">"Aquashine berdiri pada tahun 2019 yang didirikan oleh Devian Rizky Ananta,
+                                    <h1 className="font-light text-xs lg:text-xl xl:text-xl 2xl:text-2xl text-left text-black">"Aquashine berdiri pada tahun 2019 yang didirikan oleh Devian Rizky Ananta,
                                         tahun 2019 akhir.Aquashine mendirikan toko pertamanya yang terletak di Jl.Kauman Kudu Raya.
                                         Pada awal berdiriya aquashine mengerjakan proyek-proyek aquarium, seperti merancang aquascape,
                                         palidarium, terrarium dan vivarium. Seiring berkembangnya pasar aquashine mencoba mengerjakan
