@@ -6,11 +6,11 @@ import Navbar from './components/Navbar'
 import Herosection from './components/Herosection'
 import Aboutsection from './components/Aboutsection';
 import Footersection from './components/Footersection';
-import Imgsection from './components/Imgsection';
 import Servicesection from './components/Servicesection';
 import Projectsection from './components/Projectsection';
 import Contactsection from './components/Contactsection';
 import Visimisisection from './components/Visimisisection';
+import Whychoose from './components/Whychoose';
 
 
 const commonMotionProps = {
@@ -29,7 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Aboutsection />
           <Visimisisection />
           <Servicesection />
-          <Visimisisection />
+          <Whychoose />
           <Projectsection />
           <Visimisisection />
           <Contactsection />
