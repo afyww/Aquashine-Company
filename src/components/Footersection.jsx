@@ -15,11 +15,11 @@ const Footersection = () => {
                             <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Our Address</h1>
                         </div>
                         <div className='space-y-2 text-left'>
-                            <a className='block text-white text-xs' href="">Home</a>
-                            <a className='block text-white text-xs' href="">About</a>
-                            <a className='block text-white text-xs' href="">Services</a>
-                            <a className='block text-white text-xs' href="">Projects</a>
-                            <a className='block text-white text-xs' href="">Contact</a>
+                            <a className='block text-white text-xs' href="#home">Home</a>
+                            <a className='block text-white text-xs' href="#about">About</a>
+                            <a className='block text-white text-xs' href="#service">Services</a>
+                            <a className='block text-white text-xs' href="#project">Projects</a>
+                            <a className='block text-white text-xs' href="#contact">Contact</a>
                         </div>
                     </div>
                     <div className='space-y-4 mx-auto'>
@@ -27,11 +27,11 @@ const Footersection = () => {
                             <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Quick Link</h1>
                         </div>
                         <div className='space-y-2 text-left'>
-                            <a className='block text-white text-xs' href="">Home</a>
-                            <a className='block text-white text-xs' href="">About</a>
-                            <a className='block text-white text-xs' href="">Services</a>
-                            <a className='block text-white text-xs' href="">Projects</a>
-                            <a className='block text-white text-xs' href="">Contact</a>
+                            <a className='block text-white text-xs' href="#home">Home</a>
+                            <a className='block text-white text-xs' href="#about">About</a>
+                            <a className='block text-white text-xs' href="#service">Services</a>
+                            <a className='block text-white text-xs' href="#project">Projects</a>
+                            <a className='block text-white text-xs' href="#contact">Contact</a>
                         </div>
                     </div>
                     <div className='space-y-4 mx-auto col-span-3 xl:col-span-1'>

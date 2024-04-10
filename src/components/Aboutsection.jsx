@@ -1,19 +1,44 @@
 import hero from '../assets/images/momon.jpeg'
+import { motion } from "framer-motion";
 
 const Aboutsection = () => {
+
+    const Motionx = {
+        initial: { opacity: 0, y: 100 },
+        whileInView: { opacity: 1, y: 0 },
+        transition: { duration: 1.5, ease: "easeInOut" },
+    };
+
+    const Motiony = {
+        initial: { opacity: 0, y: 200 },
+        whileInView: { opacity: 1, y: 0 },
+        transition: { duration: 2.0, ease: "easeInOut" },
+    };
+
     return (
         <section id="about">
             <div className="grid grid-cols-1 bg-gray-100 py-20 xl:py-36">
                 <div className="my-auto ">
                     <div className="px-10 lg:px-20 xl:px-20 2xl:px-32 ">
                         <div className='w-full space-y-5 xl:space-y-12'>
-                            <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-left text-emerald-700 font-semibold">
-                                About Us
-                            </h1>
+                            <motion.div {...Motionx}>
+                                <div className='border-b-2 pb-6 xl:mx-36'>
+                                    <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-normal">
+                                        About Us
+                                    </h1>
+                                    <p className='text-center font-light text-sm xl:text-lg'>Our company history</p>
+                                </div>
+                            </motion.div>
                             <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 my-auto">
-                                <div className="space-y-5 order-2 xl:order-1">
-                                    <div className='w-3/4'>
-                                    <h1 className='text-2xl xl:text-4xl font-extrabold text-left'>Berpengelaman Lebih Dari 4 Tahun</h1>
+                                <motion.div {...Motiony}>
+                                    <div className='my-auto'>
+                                        <img className='rounded-xl' src={hero} alt="" />
+                                    </div>
+                                </motion.div>
+                                <motion.div {...Motionx}>
+                                <div className="space-y-5">
+                                    <div className=''>
+                                        <h1 className='text-sm xl:text-2xl font-bold text-left'>Berpengelaman Lebih Dari 4 Tahun</h1>
                                     </div>
                                     <h1 className="font-light text-xs lg:text-xl xl:text-xl 2xl:text-2xl justify-center text-black">Aquashine berdiri pada tahun 2019 yang didirikan oleh Devian Rizky Ananta,
                                         tahun 2019 akhir.Aquashine mendirikan toko pertamanya yang terletak di Jl.Kauman Kudu Raya.
@@ -29,9 +54,7 @@ const Aboutsection = () => {
                                         <a className='p-2 rounded-xl bg-blue-500 px-2 xl:px-5 text-lg text-white font-light' href="#project">See Our Projects</a>
                                     </div>
                                 </div>
-                                <div className='order-1 xl:order-2 my-auto'>
-                                    <img className='rounded-xl' src={hero} alt="" />
-                                </div>
+                                </motion.div>
                             </div>
                         </div>
                     </div>

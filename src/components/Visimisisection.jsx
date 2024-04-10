@@ -8,11 +8,11 @@ function Visimisisection() {
                     <div className='w-full'>
                         <div className="space-y-6 xl:space-y-0 grid grid-cols-1 xl:grid-cols-2">
                             <div className='space-y-4'>
-                                <h1 className='text-2xl text-white text-center border-white border-b-2 mx-10'>Visi</h1>
+                                <h1 className='text-2xl text-white text-center border-white border-b-2 mx-2 xl:mx-10'>Visi</h1>
                                 <p className='text-white mx-10 font-light text-xs xl:text-xl text-left'>Menjadi perusahaan jasa pembuatan pembuatan aquascape, taman, aviary, dan vertical garden yang inovasi dan menginspirasi khalayak umum.</p>
                             </div>
                             <div className='space-y-4'>
-                                <h1 className='text-2xl text-white text-center border-white border-b-2 mx-10'>Misi</h1>
+                                <h1 className='text-2xl text-white text-center border-white border-b-2 mx-2 xl:mx-10'>Misi</h1>
                                 <div className='text-white mx-10 font-light text-xs xl:text-xl text-left'>
                                 <p>1.	Memberikan layanan berkualitas tinggi melalui komitmen terhadap kepuasan pelanggan
                                 </p>
