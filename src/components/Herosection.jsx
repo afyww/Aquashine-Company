@@ -13,7 +13,7 @@ const Herosection = () => {
                                 frameBorder="0"
                                 allow="autoplay; encrypted-media"
                                 allowFullScreen
-                                className="w-screen h-screen scale-105"
+                                className="w-screen h-screen"
                             ></iframe>
                         </div>
                         <div className="hidden lg:block">
