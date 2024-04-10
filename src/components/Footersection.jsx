@@ -2,7 +2,7 @@ import logo from '../assets/images/logoaqua.png'
 
 const Footersection = () => {
     return (
-        <footer className="h-fit w-full bg-gray-800 mx-auto">
+        <footer className="h-fit w-full bg-gray-800 mx-auto rounded-t-xl">
             <div className="">
                 <div className=" grid grid-cols-3 xl:grid-cols-4 p-3 xl:p-6 space-y-4 xl:space-y-0">
                     <div className="my-auto col-span-3 xl:col-span-1">
@@ -22,7 +22,7 @@ const Footersection = () => {
                             <a className='block text-white text-xs' href="#contact">Contact</a>
                         </div>
                     </div>
-                    <div className='space-y-4 mx-auto'>
+                    <div className='space-y-4 mx-auto col-span-2 xl:col-span-1'>
                         <div>
                             <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Quick Link</h1>
                         </div>
@@ -34,14 +34,14 @@ const Footersection = () => {
                             <a className='block text-white text-xs' href="#contact">Contact</a>
                         </div>
                     </div>
-                    <div className='space-y-4 mx-auto'>
+                    <div className='space-y-4 mx-auto col-span-3 xl:col-span-1'>
                         <div>
                             <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Connect With Us</h1>
                         </div>
                     </div>
                 </div>
                 <div className='text-center p-2.5 xl:p-5 my-auto border-t mx-10 border-gray-100'>
-                    <h1 className='text-white text-xs'>Copyright 2024</h1>
+                    <h1 className='text-white text-xs'>©  2024 Copyright | Aquashine Company</h1>
                 </div>
             </div>
         </footer>
