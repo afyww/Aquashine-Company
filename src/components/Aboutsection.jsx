@@ -15,21 +15,21 @@ const Aboutsection = () => {
                                     <div className='w-3/4'>
                                     <h1 className='text-2xl xl:text-4xl font-extrabold text-left'>Berpengelaman Lebih Dari 4 Tahun</h1>
                                     </div>
-                                    <h1 className="font-light text-xs lg:text-xl xl:text-xl 2xl:text-2xl text-left text-black">"Aquashine berdiri pada tahun 2019 yang didirikan oleh Devian Rizky Ananta,
+                                    <h1 className="font-light text-xs lg:text-xl xl:text-xl 2xl:text-2xl justify-center text-black">Aquashine berdiri pada tahun 2019 yang didirikan oleh Devian Rizky Ananta,
                                         tahun 2019 akhir.Aquashine mendirikan toko pertamanya yang terletak di Jl.Kauman Kudu Raya.
                                         Pada awal berdiriya aquashine mengerjakan proyek-proyek aquarium, seperti merancang aquascape,
                                         palidarium, terrarium dan vivarium. Seiring berkembangnya pasar aquashine mencoba mengerjakan
                                         proyek pembangunan kolam ditahun 2020. Di tahun 2022 aquashine membuka jabang di jalan woltermonginsidi
                                         yang berfokus menjual peralatan aquarium, ikan, dan lain debagainya. Di tahun itu juga aquashine mulai
                                         menggerjakan proyek lanjutan yaitu pembuatan lingkungan hutan buatan di dalam maupun di luar ruangan seperti
-                                        taman, aviary, dan vertical garden".
+                                        taman, aviary, dan vertical garden.
                                     </h1>
                                     <div className='flex space-x-3'>
                                         <a className='p-2 rounded-xl bg-green-500 px-2 xl:px-5 text-white text-lg font-light' href="#contact">Lets Talk</a>
                                         <a className='p-2 rounded-xl bg-blue-500 px-2 xl:px-5 text-lg text-white font-light' href="#project">See Our Projects</a>
                                     </div>
                                 </div>
-                                <div className='order-1 xl:order-2'>
+                                <div className='order-1 xl:order-2 my-auto'>
                                     <img className='rounded-xl' src={hero} alt="" />
                                 </div>
                             </div>
