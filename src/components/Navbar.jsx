@@ -51,7 +51,7 @@ const Navbar = () => {
         <section>
             <div className='' />
             <nav className={`fixed z-50 top-0 right-0 rounded-b-xl left-0 shadow-xl ${scrolling || isMobileView ? 'bg-gray-800' : 'bg-transparent'}`}>
-                <div className="mx-5 p-1.5 xl:mx-14">
+                <div className="mx-5 p-2 xl:mx-14">
                     <div className="flex justify-between">
                         <div className=''>
                             <a href="/" className="">
