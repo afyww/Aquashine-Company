@@ -10,7 +10,7 @@ const Aboutsection = () => {
                             <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-left text-emerald-700 font-semibold">
                                 About Us
                             </h1>
-                            <div className="grid grid-cols-1 xl:grid-cols-2 gap-10">
+                            <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 my-auto">
                                 <div className="space-y-5 order-2 xl:order-1">
                                     <div className='w-3/4'>
                                     <h1 className='text-2xl xl:text-4xl font-extrabold text-left'>Berpengelaman Lebih Dari 4 Tahun</h1>
