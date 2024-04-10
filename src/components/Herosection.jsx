@@ -10,8 +10,7 @@ const Herosection = () => {
                             <iframe
                                 id="player"
                                 type="text/html"
-                                width="1440"
-                                height="738"
+                                height="768"
                                 src="https://www.youtube.com/embed/ZeKwsABnfcM?autoplay=1&loop=1&controls=0&mute=1"
                                 frameborder="0"
                                 className="w-screen"
@@ -21,7 +20,6 @@ const Herosection = () => {
                             <iframe
                                 id="player"
                                 type="text/html"
-                                width="1440"
                                 height="810"
                                 src="https://www.youtube.com/embed/nV28eDzTs10?autoplay=1&loop=1&controls=0&mute=1"
                                 frameborder="0"
