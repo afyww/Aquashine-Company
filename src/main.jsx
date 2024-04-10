@@ -8,9 +8,7 @@ import Footersection from './components/Footersection';
 import Servicesection from './components/Servicesection';
 import Projectsection from './components/Projectsection';
 import Contactsection from './components/Contactsection';
-
-
-
+import Visimisisection from './components/Visimisisection'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -19,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <div className='w-full mx-auto'>
         <Herosection />
         <Aboutsection />
+        <Visimisisection />
         <Servicesection />
         <Projectsection />
         <Contactsection />
