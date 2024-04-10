@@ -8,22 +8,24 @@ const Herosection = () => {
                     <div className="video-container relative">
                         <div className="lg:hidden">
                             <iframe
-                                title="YouTube Video"
+                                id="player"
+                                type="text/html"
+                                width="1440"
+                                height="738"
                                 src="https://www.youtube.com/embed/ZeKwsABnfcM?autoplay=1&loop=1&controls=0&mute=1"
-                                frameBorder="0"
-                                allow="autoplay; encrypted-media"
-                                allowFullScreen
-                                className="w-screen h-screen"
+                                frameborder="0"
+                                className="w-screen"
                             ></iframe>
                         </div>
                         <div className="hidden lg:block">
                             <iframe
-                                title="YouTube Video"
+                                id="player"
+                                type="text/html"
+                                width="1440"
+                                height="810"
                                 src="https://www.youtube.com/embed/nV28eDzTs10?autoplay=1&loop=1&controls=0&mute=1"
-                                frameBorder="0"
-                                allow="autoplay; encrypted-media"
-                                allowFullScreen
-                                className="w-screen h-screen"
+                                frameborder="0"
+                                className="w-screen"
                             ></iframe>
                         </div>
                     </div>
