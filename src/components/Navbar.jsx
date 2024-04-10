@@ -51,11 +51,11 @@ const Navbar = () => {
         <section>
             <div className='' />
             <nav className={`fixed z-50 top-0 right-0 left-0 shadow-xl ${scrolling || isMobileView ? 'bg-gray-800' : 'bg-transparent'}`}>
-                <div className="mx-8 p-3.5 xl:mx-14">
+                <div className="mx-5 p-3.5 xl:mx-14">
                     <div className="flex justify-between">
                         <div className=''>
                             <a href="/" className="">
-                                <img className='w-1/3 h-fit' src={logo} alt="" />
+                                <img className='w-1/3' src={logo} alt="" />
                             </a>
                         </div>
                         <div className="hidden items-center md:flex xl:flex text-white">
