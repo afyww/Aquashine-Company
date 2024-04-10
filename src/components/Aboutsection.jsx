@@ -50,8 +50,8 @@ const Aboutsection = () => {
                                         taman, aviary, dan vertical garden.
                                     </h1>
                                     <div className='flex space-x-3'>
-                                        <a className='p-2 rounded-xl bg-green-500 px-2 xl:px-5 text-white text-lg font-light' href="#contact">Lets Talk</a>
-                                        <a className='p-2 rounded-xl bg-blue-500 px-2 xl:px-5 text-lg text-white font-light' href="#project">See Our Projects</a>
+                                        <a className='p-2 rounded-xl bg-green-500 px-2 xl:px-5 text-white text-sm xl:text-lg font-light' href="#contact">Lets Talk</a>
+                                        <a className='p-2 rounded-xl bg-blue-500 px-2 xl:px-5 text-sm xl:text-lg text-white font-light' href="#project">See Our Projects</a>
                                     </div>
                                 </div>
                                 </motion.div>
