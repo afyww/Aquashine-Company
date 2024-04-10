@@ -16,7 +16,7 @@ function Contactsection() {
                 <div>
                 <Contactcard />
                 </div>
-                <div>
+                <div className="my-auto">
                   <Contactus />
                 </div>
               </div>
