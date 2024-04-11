@@ -15,17 +15,17 @@ function Visimisisection() {
                 <div className="px-10 lg:px-20 xl:px-20 2xl:px-32 ">
                     <div className='w-full'>
                     <motion.div {...Motionx}>
-                        <div className="space-y-6 xl:space-y-0 grid grid-cols-1 xl:grid-cols-2">
-                            <div className='space-y-4'>
-                                <div className='border-b-2 pb-6 xl:mx-36'>
+                        <div className="space-y-6 xl:space-y-0 grid grid-cols-1 xl:grid-cols-2 xl:gap-5">
+                            <div className='space-y-4 bg-white p-3 rounded-xl'>
+                                <div className=''>
                                     <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-semibold">
                                         Visi
                                     </h1>
                                 </div>
                                 <p className='text-black mx-10 font-light text-xs xl:text-xl text-left'>Menjadi perusahaan jasa pembuatan pembuatan aquascape, taman, aviary, dan vertical garden yang inovasi dan menginspirasi khalayak umum.</p>
                             </div>
-                            <div className='space-y-4'>
-                            <div className='border-b-2 pb-6 xl:mx-36'>
+                            <div className='space-y-4 bg-white p-3 rounded-xl'>
+                            <div className=''>
                                     <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-semibold">
                                         Misi
                                     </h1>
