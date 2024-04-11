@@ -32,65 +32,129 @@ function Servicesection() {
               <motion.div {...Motiony}>
                 <div className="grid grid-cols-1 xl:grid-cols-4 p-2 xl:p-8 gap-5 rounded-2xl">
                   <div className="">
-                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
-                        <p className="text-center font-light text-xs xl:text-base">
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
                       </div>
-                      <div className='border-b-2 border-blue-400 mx-16 xl:mx-12 text-center'>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
                         <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
                       </div>
                     </div>
                   </div>
                   <div className="">
-                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
-                        <p className="text-center font-light text-xs xl:text-base">
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
                       </div>
-                      <div className='border-b-2 border-blue-400 mx-16 xl:mx-12 text-center'>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
                         <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
                       </div>
                     </div>
                   </div>
                   <div className="">
-                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
-                        <p className="text-center font-light text-xs xl:text-base">
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
                       </div>
-                      <div className='border-b-2 border-blue-400 mx-16 xl:mx-12 text-center'>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
                         <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
                       </div>
                     </div>
                   </div>
                   <div className="">
-                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
-                        <p className="text-center font-light text-xs xl:text-base">
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
                       </div>
-                      <div className='border-b-2 border-blue-400 mx-16 xl:mx-12 text-center'>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
                         <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
                       </div>
                     </div>
                   </div>
+
+                </div>
+                <div className="grid grid-cols-1 xl:grid-cols-4 p-2 xl:p-8 gap-5 rounded-2xl">
+                  <div className="">
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    />
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
+                      <div>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
+                          Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
+                        </p>
+                      </div>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
+                        <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="">
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    />
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
+                      <div>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
+                          Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
+                        </p>
+                      </div>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
+                        <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="">
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    />
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
+                      <div>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
+                          Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
+                        </p>
+                      </div>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
+                        <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="">
+                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    />
+                    <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
+                      <div>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <p className="text-left font-light text-xs xl:text-base">
+                          Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
+                        </p>
+                      </div>
+                      <div className='border-b-2 border-blue-400 text-left mr-28'>
+                        <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-semibold' href="">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </motion.div>
             </div>

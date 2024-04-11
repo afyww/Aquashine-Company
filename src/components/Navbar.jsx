@@ -67,8 +67,8 @@ const Navbar = () => {
                         </div>
                         <div className="md:hidden flex items-center">
                             <button className="mobile-menu-button" onClick={toggleMobileMenu}>
-                                <svg className='w-6 h-6' width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13 14V16H2V14H13ZM18 7V9H0V7H18ZM16 0V2H5V0H16Z" fill="black" />
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 15L20 25L30 15" stroke="#E3E4E6" strokeWidth="2.67" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </button>
                         </div>
