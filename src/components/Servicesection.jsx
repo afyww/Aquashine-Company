@@ -34,7 +34,7 @@ function Servicesection() {
                   <div className="">
                     <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-3 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
                         <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-center font-light text-xs xl:text-base">
@@ -49,7 +49,7 @@ function Servicesection() {
                   <div className="">
                     <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-3 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
                         <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-center font-light text-xs xl:text-base">
@@ -64,7 +64,7 @@ function Servicesection() {
                   <div className="">
                     <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-3 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
                         <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-center font-light text-xs xl:text-base">
@@ -79,7 +79,7 @@ function Servicesection() {
                   <div className="">
                     <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
                     />
-                    <div className="p-4 space-y-3 bg-white rounded-b-xl">
+                    <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
                         <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-7xl text-center text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-center font-light text-xs xl:text-base">
