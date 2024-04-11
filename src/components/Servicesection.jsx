@@ -32,7 +32,7 @@ function Servicesection() {
               <motion.div {...Motiony}>
                 <div className="grid grid-cols-1 xl:grid-cols-4 p-2 xl:p-8 gap-5 rounded-2xl">
                   <div className="">
-                    <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
+                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
@@ -47,7 +47,7 @@ function Servicesection() {
                     </div>
                   </div>
                   <div className="">
-                    <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
+                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
@@ -62,7 +62,7 @@ function Servicesection() {
                     </div>
                   </div>
                   <div className="">
-                    <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
+                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
@@ -77,7 +77,7 @@ function Servicesection() {
                     </div>
                   </div>
                   <div className="">
-                    <img className="rounded-t-xl h-fit w-full" src={service1} alt=""
+                    <img className="rounded-t-xl h-1/2 w-full" src={service1} alt=""
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 bg-white rounded-b-xl">
                       <div>
