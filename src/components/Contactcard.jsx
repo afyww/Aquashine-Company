@@ -35,7 +35,7 @@ function Contactcard() {
                     message: '',
                 });
             }, 5000);
-    
+
             return;
         }
 
@@ -71,12 +71,15 @@ function Contactcard() {
     };
 
     return (
-        <div className="p-4 xl:p-8 bg-white rounded-xl">
+        <div className="p-4 xl:p-8">
             <form onSubmit={handleSubmit}>
                 <div className="space-y-1">
                     <div className="space-y-2">
-                        <h1 className="text-xl xl:text-4xl font-semibold text-left">Get In Touch With Us</h1>
-                        <h1 className="text-emerald-600 text-sm xl:text-lg">And We Will Reply Immediately.</h1>
+                        <div className="">
+                            <h1 className="text-xl lg:text-2xl xl:text-4xl 2xl:text-7xl text-left text-emerald-700 font-normal">
+                                Get In Touch With Us
+                            </h1>
+                        </div>
                     </div>
                     <div>
                         <label className="text-sm xl:text-lg text-extralight text-black text-left">Your Name</label>
@@ -107,14 +110,13 @@ function Contactcard() {
                         >
                             Send Message on WhatsApp
                         </button>
-                    </div>   
+                    </div>
                 </div>
             </form>
             {notification.show && (
                 <div
-                    className={`mt-4 p-3 ${
-                        notification.type === 'success' ? 'bg-green-500' : 'bg-red-500'
-                    } text-white`}
+                    className={`mt-4 p-3 ${notification.type === 'success' ? 'bg-green-500' : 'bg-red-500'
+                        } text-white`}
                 >
                     {notification.message}
                 </div>
