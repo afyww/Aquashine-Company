@@ -10,6 +10,7 @@ import Projectsection from './components/Projectsection';
 import Contactsection from './components/Contactsection';
 import Visimisisection from './components/Visimisisection'
 import Expsection from './components/Expsection'
+import Mapsection from './components/Mapsection'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Servicesection />
         <Projectsection />
         <Contactsection />
+        <Mapsection />
       </div>
       <div>
         <Footersection />
