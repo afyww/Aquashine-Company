@@ -11,6 +11,8 @@ import Contactsection from './components/Contactsection';
 import Visimisisection from './components/Visimisisection'
 import Expsection from './components/Expsection'
 import Mapsection from './components/Mapsection'
+import Whychoose from './components/Whychoose'
+import Meetsection from './components/Meetsection'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -22,7 +24,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Expsection />
         <Visimisisection />
         <Servicesection />
+        <Whychoose />
         <Projectsection />
+        <Meetsection />
         <Contactsection />
         <Mapsection />
       </div>
