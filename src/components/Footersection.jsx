@@ -1,4 +1,8 @@
 import logo from '../assets/images/logoaqua.png'
+import ig from '../assets/images/instagram.png'
+import wa from '../assets/images/whatsapp.png'
+import fb from '../assets/images/facebook.png'
+import gmail from '../assets/images/email.png'
 
 const Footersection = () => {
     return (
@@ -12,7 +16,7 @@ const Footersection = () => {
                     </div>
                     <div className='space-y-4 mx-auto'>
                         <div>
-                            <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Our Address</h1>
+                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg'>Our Address</h1>
                         </div>
                         <div className='space-y-2 text-left'>
                             <a className='block text-white text-xs' href="#home">Home</a>
@@ -24,7 +28,7 @@ const Footersection = () => {
                     </div>
                     <div className='space-y-4 mx-auto col-span-2 xl:col-span-1'>
                         <div>
-                            <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Quick Link</h1>
+                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg'>Quick Link</h1>
                         </div>
                         <div className='space-y-2 text-left'>
                             <a className='block text-white text-xs' href="#home">Home</a>
@@ -36,8 +40,15 @@ const Footersection = () => {
                     </div>
                     <div className='space-y-4 mx-auto col-span-3 xl:col-span-1'>
                         <div>
-                            <h1 className='font-semibold text-emerald-600 text-xs xl:text-lg'>Connect With Us</h1>
+                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg'>Connect With Us</h1>
                         </div>
+                        <div className='flex gap-4 xl:gap-8'>
+                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={ig} alt="" />
+                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={fb} alt="" />
+                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={wa} alt="" />
+                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={gmail} alt="" />
+                        </div>
+
                     </div>
                 </div>
                 <div className='text-center p-2.5 xl:p-5 my-auto border-t mx-10 border-gray-100'>
