@@ -31,7 +31,7 @@ function Servicesection() {
               <motion.div {...Motiony}>
                 <div className="grid grid-cols-2 xl:grid-cols-4 gap-5 p-2 xl:p-8 rounded-2xl">
                 <div className="space-y-4 xl:space-y-10 bg-white px-2 xl:px-10 p-3 rounded-xl">
-                    <h1 className="text-black text-lg xl:text-4xl font-extrabold">Paludarium</h1>
+                    <h1 className="text-black text-lg xl:text-4xl font-extrabold">Vivarium</h1>
                     <p className="text-xs xl:text-sm text-extralight text-black line-clamp-6 text-left">
                       Paludarium adalah sebuah habitat yang merupakan perpaduan antara akuarium dan vivarium. Dalam paludarium, terdapat elemen air dan darat yang menciptakan lingkungan semi-aquatic, yang idealnya cocok untuk beberapa jenis tanaman air, reptil, amfibi, dan serangga. Biasanya, paludarium memiliki bagian air yang cukup besar untuk menyediakan ruang bagi ikan atau makhluk air lainnya, serta area daratan yang cukup luas untuk tanaman dan hewan yang lebih suka hidup di darat</p>
                     <div className="">

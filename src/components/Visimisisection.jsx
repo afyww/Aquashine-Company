@@ -12,7 +12,7 @@ function Visimisisection() {
 
         <div className="grid grid-cols-1 bg-gray-100 rounded-xl">
             <div className="my-auto ">
-                <div className="px-10 lg:px-20 xl:px-20 2xl:px-32 ">
+                <div className="px-10 lg:px-20 xl:px-20 2xl:px-32">
                     <div className='w-full'>
                     <motion.div {...Motionx}>
                         <div className="space-y-6 xl:space-y-0 grid grid-cols-1 xl:grid-cols-2 xl:gap-5">
