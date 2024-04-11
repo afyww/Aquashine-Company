@@ -49,17 +49,22 @@ const Aboutsection = () => {
                                             menggerjakan proyek lanjutan yaitu pembuatan lingkungan hutan buatan di dalam maupun di luar ruangan seperti
                                             taman, aviary, dan vertical garden.
                                         </h1>
-                                        <div className='flex space-x-3'>
+                                        <div className='flex space-x-6'>
                                             <div className='border-b-2 border-emerald-400'>
-                                                <div className='flex'>
-                                                    <a className=' text-emerald-600 text-sm xl:text-lg font-light' href="#contact">Lets Talk</a>
-                                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fillRule="evenodd" clipRule="evenodd" d="M9.29289 7.29289C9.68342 6.90237 10.3166 6.90237 10.7071 7.29289L14.7071 11.2929C15.0976 11.6834 15.0976 12.3166 14.7071 12.7071L10.7071 16.7071C10.3166 17.0976 9.68342 17.0976 9.29289 16.7071C8.90237 16.3166 8.90237 15.6834 9.29289 15.2929L12.5858 12L9.29289 8.70711C8.90237 8.31658 8.90237 7.68342 9.29289 7.29289Z" fill="white" />
+                                                <div className=''>
+                                                    <a className=' text-emerald-600 flex gap-2 text-sm xl:text-lg font-light' href="#contact">Lets Talk
+                                                    <svg className='my-auto bg-emerald-400 p-1 h-6 w-5 xl:w-7 xl:h-8' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fillRule="evenodd" clipRule="evenodd" d="M14.2929 5.29289C14.6834 4.90237 15.3166 4.90237 15.7071 5.29289L21.7071 11.2929C22.0976 11.6834 22.0976 12.3166 21.7071 12.7071L15.7071 18.7071C15.3166 19.0976 14.6834 19.0976 14.2929 18.7071C13.9024 18.3166 13.9024 17.6834 14.2929 17.2929L18.5858 13H3C2.44772 13 2 12.5523 2 12C2 11.4477 2.44772 11 3 11H18.5858L14.2929 6.70711C13.9024 6.31658 13.9024 5.68342 14.2929 5.29289Z" fill="black" />
                                                     </svg>
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div className='border-b-2 border-blue-400'>
-                                                <a className='px-2 xl:px-5 text-blue-600 text-sm xl:text-lg font-light' href="#project">See Our Projects</a>
+                                                <a className='text-blue-600 flex gap-2 text-sm xl:text-lg font-light' href="#project">See Our Projects
+                                                    <svg className='my-auto bg-blue-400 p-1 h-6 w-5 xl:w-7 xl:h-8' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fillRule="evenodd" clipRule="evenodd" d="M14.2929 5.29289C14.6834 4.90237 15.3166 4.90237 15.7071 5.29289L21.7071 11.2929C22.0976 11.6834 22.0976 12.3166 21.7071 12.7071L15.7071 18.7071C15.3166 19.0976 14.6834 19.0976 14.2929 18.7071C13.9024 18.3166 13.9024 17.6834 14.2929 17.2929L18.5858 13H3C2.44772 13 2 12.5523 2 12C2 11.4477 2.44772 11 3 11H18.5858L14.2929 6.70711C13.9024 6.31658 13.9024 5.68342 14.2929 5.29289Z" fill="black" />
+                                                    </svg>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
