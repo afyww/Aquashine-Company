@@ -27,7 +27,7 @@ function Projectsection() {
                 <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-normal">
                   Our Projects
                 </h1>
-                <p className="text-center font-light text-sm xl:text-lg">Project that we did</p>
+                <p className="text-center font-light text-sm xl:text-lg">Project that we build</p>
               </div>
               </motion.div>
               <motion.div {...Motiony}>
