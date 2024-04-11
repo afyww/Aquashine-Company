@@ -76,7 +76,7 @@ function Contactcard() {
                 <div className="space-y-1">
                     <div className="space-y-2">
                         <div className="">
-                            <h1 className="text-xl lg:text-2xl xl:text-4xl 2xl:text-7xl text-left text-emerald-700 font-normal">
+                            <h1 className="text-xl lg:text-2xl xl:text-4xl 2xl:text-7xl text-left text-emerald-700 font-semibold">
                                 Get In Touch With Us
                             </h1>
                         </div>

@@ -7,27 +7,27 @@ function Contactus() {
     return (
         <div className="p-4 xl:p-8">
             <div className="">
-                <div className="space-y-16">
+                <div className="space-y-8 xl:space-y-16">
                     <div className="">
-                        <h1 className="text-xl lg:text-2xl xl:text-4xl 2xl:text-7xl text-left text-emerald-700 font-normal">
+                        <h1 className="text-xl lg:text-2xl xl:text-4xl 2xl:text-7xl text-left text-emerald-700 font-semibold">
                             Contact Us
                         </h1>
                     </div>
                     <div className='space-y-8 text-left'>
                         <div className='flex space-x-4'>
-                            <img className='w-8 h-8' src={ig} alt="" />
+                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={ig} alt="" />
                             <h1 className='my-auto text-sm xl:text-lg text-black'>shinecompany29</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-8 h-8' src={fb} alt="" />
+                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={fb} alt="" />
                             <h1 className='my-auto text-sm xl:text-lg text-black'>Shinecompany</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-8 h-8' src={wa} alt="" />
+                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={wa} alt="" />
                             <h1 className='my-auto text-sm xl:text-lg text-black'>Shinecompany</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-8 h-8' src={gmail} alt="" />
+                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={gmail} alt="" />
                             <h1 className='my-auto text-sm xl:text-lg text-black'>Shinecompany</h1>
                         </div>
                     </div>

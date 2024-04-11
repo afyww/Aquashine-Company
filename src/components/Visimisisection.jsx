@@ -18,7 +18,7 @@ function Visimisisection() {
                         <div className="space-y-6 xl:space-y-0 grid grid-cols-1 xl:grid-cols-2">
                             <div className='space-y-4'>
                                 <div className='border-b-2 pb-6 xl:mx-36'>
-                                    <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-normal">
+                                    <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-semibold">
                                         Visi
                                     </h1>
                                 </div>
@@ -26,7 +26,7 @@ function Visimisisection() {
                             </div>
                             <div className='space-y-4'>
                             <div className='border-b-2 pb-6 xl:mx-36'>
-                                    <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-normal">
+                                    <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-semibold">
                                         Misi
                                     </h1>
                                 </div>
