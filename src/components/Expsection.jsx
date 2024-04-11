@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Expsection() {
     return (
-        <div className="grid grid-cols-1 bg-gray-100 rounded-xl py-2 xl:py-6">
+        <div className="grid grid-cols-1 bg-gray-100 rounded-xl py-5 xl:py-10">
             <div className="my-auto">
                 <div className="px-10 lg:px-20 xl:px-20 2xl:px-32">
                     <div className="w-full">
