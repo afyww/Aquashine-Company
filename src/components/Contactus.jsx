@@ -1,5 +1,5 @@
 import ig from '../assets/images/instagram.png'
-import wa from '../assets/images/wa.png'
+import wa from '../assets/images/whatsapp.png'
 import fb from '../assets/images/facebook.png'
 import gmail from '../assets/images/email.png'
 
