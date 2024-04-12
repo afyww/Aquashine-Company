@@ -11,7 +11,7 @@ const Herosection = () => {
                                 id="player"
                                 type="text/html"
                                 height="768"
-                                src="https://www.youtube.com/embed/ZeKwsABnfcM?autoplay=1&loop=1&controls=0&mute=1"
+                                src="https://www.youtube.com/embed/ZeKwsABnfcM?playlist=ZeKwsABnfcM&autoplay=1&loop=1&controls=0&mute=1"
                                 frameborder="0"
                                 className="w-screen"
                             ></iframe>
@@ -21,7 +21,7 @@ const Herosection = () => {
                                 id="player"
                                 type="text/html"
                                 height="810"
-                                src="https://www.youtube.com/embed/nV28eDzTs10?autoplay=1&loop=1&controls=0&mute=1"
+                                src="https://www.youtube.com/embed/nV28eDzTs10?playlist=nV28eDzTs10&autoplay=1&loop=1&controls=0&mute=1"
                                 frameborder="0"
                                 className="w-screen"
                             ></iframe>
