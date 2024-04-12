@@ -22,7 +22,7 @@ function Visimisisection() {
                                         Visi
                                     </h1>
                                 </div>
-                                <p className='text-black mx-10 font-light text-xs xl:text-xl text-left'>Menjadi perusahaan jasa pembuatan pembuatan aquascape, taman, aviary, dan vertical garden yang inovasi dan menginspirasi khalayak umum.</p>
+                                <p className='text-black mx-10 font-light text-xs xl:text-xl 2xl:text-2xl text-left'>Menjadi perusahaan jasa pembuatan pembuatan aquascape, taman, aviary, dan vertical garden yang inovasi dan menginspirasi khalayak umum.</p>
                             </div>
                             <div className='space-y-4 bg-white p-3 rounded-xl'>
                             <div className=''>
@@ -30,7 +30,7 @@ function Visimisisection() {
                                         Misi
                                     </h1>
                                 </div>
-                                <div className='text-black mx-10 font-light text-xs xl:text-xl text-left'>
+                                <div className='text-black mx-10 font-light text-xs xl:text-xl 2xl:text-2xl text-left'>
                                     <p>1.	Memberikan layanan berkualitas tinggi melalui komitmen terhadap kepuasan pelanggan
                                     </p>
                                     <p>2.	Menggabungkan kreativitas dan keahlian desain untuk menciptakan lingkungan hidup buatan yang estetik dan fungsional

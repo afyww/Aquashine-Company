@@ -26,7 +26,7 @@ function Expsection() {
                                         initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }}
                                         transition={{ duration: 0.5, delay: 0.4 }}
-                                        className='text-black font-light text-xs xl:text-xl text-center'
+                                        className='text-black font-light text-xs xl:text-xl 2xl:text-2xl text-center'
                                     >
                                         Experience
                                     </motion.span>
@@ -50,7 +50,7 @@ function Expsection() {
                                         initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }}
                                         transition={{ duration: 0.5, delay: 1 }}
-                                        className='text-black font-light text-xs xl:text-xl text-center'
+                                        className='text-black font-light text-xs xl:text-xl 2xl:text-2xl text-center'
                                     >
                                         Projects
                                     </motion.span>
@@ -69,7 +69,7 @@ function Expsection() {
                                         initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }}
                                         transition={{ duration: 0.5, delay: 1.4 }}
-                                        className='text-black font-light text-xs xl:text-xl text-center'
+                                        className='text-black font-light text-xs xl:text-xl 2xl:text-2xl text-center'
                                     >
                                         Customers
                                     </motion.span>

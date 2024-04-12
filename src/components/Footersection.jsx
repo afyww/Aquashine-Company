@@ -16,37 +16,37 @@ const Footersection = () => {
                     </div>
                     <div className='space-y-4 mx-auto'>
                         <div>
-                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg'>Our Address</h1>
+                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg 2xl:text-xl'>Our Address</h1>
                         </div>
                         <div className='space-y-2 text-left'>
-                            <a className='block text-white text-xs' href="#home">Home</a>
-                            <a className='block text-white text-xs' href="#about">About</a>
-                            <a className='block text-white text-xs' href="#service">Services</a>
-                            <a className='block text-white text-xs' href="#project">Projects</a>
-                            <a className='block text-white text-xs' href="#contact">Contact</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#home">Home</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#about">About</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#service">Services</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#project">Projects</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#contact">Contact</a>
                         </div>
                     </div>
                     <div className='space-y-4 mx-auto col-span-2 xl:col-span-1'>
                         <div>
-                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg'>Quick Link</h1>
+                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg 2xl:text-xl'>Quick Link</h1>
                         </div>
                         <div className='space-y-2 text-left'>
-                            <a className='block text-white text-xs' href="#home">Home</a>
-                            <a className='block text-white text-xs' href="#about">About</a>
-                            <a className='block text-white text-xs' href="#service">Services</a>
-                            <a className='block text-white text-xs' href="#project">Projects</a>
-                            <a className='block text-white text-xs' href="#contact">Contact</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#home">Home</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#about">About</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#service">Services</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#project">Projects</a>
+                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#contact">Contact</a>
                         </div>
                     </div>
                     <div className='space-y-4 mx-auto col-span-3 xl:col-span-1'>
                         <div>
-                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg'>Connect With Us</h1>
+                            <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg 2xl:text-xl'>Connect With Us</h1>
                         </div>
                         <div className='flex gap-4 xl:gap-8'>
-                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={ig} alt="" />
-                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={fb} alt="" />
-                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={wa} alt="" />
-                                <img className='w-5 h-5 xl:w-8 xl:h-8' src={gmail} alt="" />
+                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={ig} alt="" />
+                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={fb} alt="" />
+                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={wa} alt="" />
+                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={gmail} alt="" />
                         </div>
 
                     </div>

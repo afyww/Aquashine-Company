@@ -15,20 +15,20 @@ function Contactus() {
                     </div>
                     <div className='space-y-8 text-left'>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={ig} alt="" />
-                            <h1 className='my-auto text-sm xl:text-lg text-black'>shinecompany29</h1>
+                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={ig} alt="" />
+                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>shinecompany29</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={fb} alt="" />
-                            <h1 className='my-auto text-sm xl:text-lg text-black'>Shinecompany</h1>
+                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={fb} alt="" />
+                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={wa} alt="" />
-                            <h1 className='my-auto text-sm xl:text-lg text-black'>Shinecompany</h1>
+                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10' src={wa} alt="" />
+                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8' src={gmail} alt="" />
-                            <h1 className='my-auto text-sm xl:text-lg text-black'>Shinecompany</h1>
+                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={gmail} alt="" />
+                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
                         </div>
                     </div>
                 </div>

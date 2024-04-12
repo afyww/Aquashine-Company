@@ -27,7 +27,7 @@ function Contactsection() {
                   <h1 className="text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-normal">
                     Our Contact
                   </h1>
-                  <p className="text-center font-light text-sm xl:text-lg">Lets Talk</p>
+                  <p className="text-center font-light text-sm xl:text-lg 2xl:text-xl">Lets Talk</p>
                 </div>
               </motion.div>
               <motion.div {...Motiony}>

@@ -21,7 +21,7 @@ function Whychoose() {
                                         Why Choose Us
                                     </h1>
                                 </div>
-                                <p className='text-black mx-10 font-light text-xs xl:text-xl text-left'>Menjadi perusahaan jasa pembuatan pembuatan aquascape, taman, aviary, dan vertical garden yang inovasi dan menginspirasi khalayak umum.</p>
+                                <p className='text-black mx-10 font-light text-xs xl:text-xl 2xl:text-2xl text-center'>Menjadi perusahaan jasa pembuatan pembuatan aquascape, taman, aviary, dan vertical garden yang inovasi dan menginspirasi khalayak umum.</p>
                             </div>
                         </div>
                         </motion.div>
