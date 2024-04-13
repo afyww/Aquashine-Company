@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import service1 from '../assets/images/project2.jpg'
+import service1 from '../assets/images/service4.jpg'
 
 function Servicesection() {
 
