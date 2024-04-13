@@ -15,7 +15,7 @@ function Imgsection() {
                     <img className="h-1/2 w-1/4 xl:h-fit xl:w-1/4 rounded-r-xl" src={service5} alt="" />
                 </div>
                 <div className="flex ">
-                <img className="h-fit xl:h-fit w-1/2 rounded-l-xl" src={service1} alt="" />
+                <img className="h-1/2 w-1/2 xl:h-fit xl:w-1/2 rounded-l-xl" src={service1} alt="" />
 
                 </div>
             </div>
