@@ -21,7 +21,6 @@ function Meetsection() {
                                 Meet Our Teams
                             </h1>
                         </div>
-                        <p className='text-black mx-10 font-light text-xs xl:text-xl text-center'>Menjadi perusahaan jasa pembuatan pembuatan aquascape, taman, aviary, dan vertical garden yang inovasi dan menginspirasi khalayak umum.</p>
                     </div>
                 </div>
                 </motion.div>
