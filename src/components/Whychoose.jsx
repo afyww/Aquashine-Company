@@ -52,7 +52,7 @@ function Whychoose() {
                                         <div className="">
                                             <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                                                 <div>
-                                                    <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-3xl text-left text-emerald-700 font-semibold">Perhatian Terhadap Detail</h1>
+                                                    <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-3xl text-center text-emerald-700 font-semibold">Perhatian Terhadap Detail</h1>
                                                     <p className="text-center font-light text-xs xl:text-base 2xl:text-xl">
                                                     Kami memperhatikan setiap detail kecil untuk memastikan bahwa paludarium Anda tidak hanya indah secara keseluruhan, tetapi juga menyelaraskan dengan kebutuhan.                                                 </p>
                                                 </div>
