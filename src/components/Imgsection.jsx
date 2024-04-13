@@ -11,9 +11,12 @@ function Imgsection() {
                 <div className="flex space-x-4">
                     <img className="h-fit xl:h-fit w-1/2 rounded-l-xl" src={service3} alt="" />
                     <img className="h-fit xl:h-fit w-1/3" src={service2} alt="" />
-                    <img className="h-fit xl:h-fit w-1/4 rounded-r-xl" src={service4} alt="" />
+                    <img className="h-fit xl:h-fit w-1/4" src={service4} alt="" />
+                    <img className="h-fit xl:h-fit w-1/4 rounded-r-xl" src={service5} alt="" />
                 </div>
                 <div className="flex ">
+                <img className="h-fit xl:h-fit w-1/2 rounded-l-xl" src={service1} alt="" />
+
                 </div>
             </div>
         </div>
