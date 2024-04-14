@@ -36,7 +36,7 @@ function Servicesection() {
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-3xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-2xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-left font-light text-xs xl:text-base 2xl:text-xl">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
@@ -59,7 +59,7 @@ function Servicesection() {
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-3xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-2xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-left font-light text-xs xl:text-base 2xl:text-xl">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
@@ -82,7 +82,7 @@ function Servicesection() {
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-3xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-2xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-left font-light text-xs xl:text-base 2xl:text-xl">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
@@ -105,7 +105,7 @@ function Servicesection() {
                     />
                     <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
                       <div>
-                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-3xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
+                        <h1 className="text-xs lg:text-base xl:text-lg 2xl:text-2xl text-left text-emerald-700 font-semibold">Jasa Pembuatan Vivarium</h1>
                         <p className="text-left font-light text-xs xl:text-base 2xl:text-xl">
                           Kami melayani Jasa Pembuatan Vivarium sesuai dengan kebutuhan pelanggan
                         </p>
