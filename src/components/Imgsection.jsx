@@ -6,7 +6,6 @@ import service5 from "../assets/images/service3.jpg";
 import service6 from "../assets/images/service6.jpg";
 import service7 from "../assets/images/service7.jpg";
 import service8 from "../assets/images/service8.jpg";
-import service9 from "../assets/images/service9.jpg";
 
 function Imgsection() {
     return (
