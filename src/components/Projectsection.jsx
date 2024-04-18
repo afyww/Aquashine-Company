@@ -18,7 +18,7 @@ function Projectsection() {
 
   return (
     <section id="project">
-      <div className="grid grid-cols-2 bg-gray-100 py-20 xl:py-36">
+      <div className="grid grid-cols-1 xl:grid-cols-2 bg-gray-100 py-20 xl:py-36">
         <div className="my-auto px-1 lg:px-20 xl:px-44 2xl:px-32 ">
           <motion.div {...Motionx}>
             <div className="">
@@ -29,7 +29,7 @@ function Projectsection() {
           </motion.div>
         </div>
         <motion.div {...Motiony}>
-                <div className="h-full">
+                <div className="p-4">
                   <Imgsection />
                 </div>
               </motion.div>
