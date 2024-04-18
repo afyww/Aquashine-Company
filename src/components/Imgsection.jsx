@@ -12,7 +12,7 @@ function Imgsection() {
             <div className="space-y-8 overflow-auto">
                 <div className="flex space-x-4">
                     <img className="h-full w-3/4 my-auto" src={service3} alt="" />
-                    <img className="h-full w-1/2 my-auto" src={service4} alt="" />
+                    <img className="h-full w-1/3 my-auto" src={service4} alt="" />
                     <img className="h-full w-1/2 my-auto" src={service2} alt="" />
                     <img className="h-full w-1/2 my-auto" src={service1} alt="" />
                     <img className="h-full w-1/3 my-auto" src={service7} alt="" />
