@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useEffect } from "react";
 import service1 from "../assets/images/service4.jpg";
 import service2 from "../assets/images/service2.png";
 import service3 from "../assets/images/service5.jpg";
@@ -6,53 +6,56 @@ import service4 from "../assets/images/service1.jpg";
 import service5 from "../assets/images/service3.jpg";
 import service6 from "../assets/images/service6.jpg";
 import service7 from "../assets/images/service7.jpg";
+import service8 from "../assets/images/service8.jpg";
 
 function Imgsection() {
-    const [offset, setOffset] = useState(0);
-    const totalImages = 5; // Total number of images
+    const containerRef = useRef(null);
 
-    const handleLeftArrowClick = () => {
-        if (offset < 0) {
-            setOffset(prevOffset => {
-                const newOffset = prevOffset + 50;
-                return newOffset > 0 ? 0 : newOffset;
-            });
-        }
-    };
+    useEffect(() => {
+        const container = containerRef.current;
+        let scrollInterval;
 
-    const handleRightArrowClick = () => {
-        const lastOffset = -100 * (totalImages - 1); // Calculate the last offset
-        if (offset > lastOffset) {
-            setOffset(prevOffset => {
-                const newOffset = prevOffset - 100;
-                return newOffset < lastOffset ? lastOffset : newOffset;
-            });
-        }
-    };
+        const startScrolling = () => {
+            scrollInterval = setInterval(() => {
+                container.scrollLeft += 2; // Adjust the scroll speed as needed
+                if (container.scrollLeft >= container.scrollWidth / 2) {
+                    container.scrollLeft = 0;
+                }
+            }, 50); // Adjust the interval as needed
+        };
+
+        const stopScrolling = () => {
+            clearInterval(scrollInterval);
+        };
+
+        container.addEventListener("mouseenter", stopScrolling);
+        container.addEventListener("mouseleave", startScrolling);
+
+        startScrolling();
+
+        return () => {
+            container.removeEventListener("mouseenter", stopScrolling);
+            container.removeEventListener("mouseleave", startScrolling);
+            clearInterval(scrollInterval);
+        };
+    }, []);
 
     return (
-        <div className="relative h-fit overflow-hidden">
-            <div className="flex space-x-4 px-16" style={{ transform: `translateX(${offset}%)` }}>
-                <div className="w-0 flex-1"></div>
-                <img className="h-full xl:w-1/3 my-auto" src={service3} alt="" />
-                <img className="h-full xl:w-1/4 my-auto" src={service4} alt="" />
-                <img className="h-full xl:w-1/3 my-auto" src={service2} alt="" />
-                <img className="h-full xl:w-1/2 my-auto" src={service1} alt="" />
-                <img className="h-full xl:w-1/4 my-auto" src={service7} alt="" />
-                <img className="h-full xl:w-1/4 my-auto" src={service6} alt="" />
-                <img className="h-full xl:w-1/3 my-auto" src={service5} alt="" />
-                <div className="w-0 flex-1"></div>
+        <div className="h-fit">
+            <div
+                ref={containerRef}
+                className="mx-auto flex gap-4 overflow-hidden"
+                style={{ whiteSpace: "nowrap", overflowX: "scroll" }}
+            >
+                <img className="h-1/2 w-1/2 xl:h-fit xl:w-1/2 my-auto" src={service3} alt="" />
+                <img className="h-1/2 w-1/4 xl:h-fit xl:w-1/4 my-auto" src={service4} alt="" />
+                <img className="h-1/2 w-1/5 xl:h-fit xl:w-1/5 my-auto" src={service8} alt="" />
+                <img className="h-1/2 w-1/3 xl:h-fit xl:w-1/3 my-auto" src={service2} alt="" />
+                <img className="h-1/2 w-1/2 xl:h-fit xl:w-1/2 my-auto" src={service1} alt="" />
+                <img className="h-1/2 w-1/4 xl:h-fit xl:w-1/4 my-auto" src={service7} alt="" />
+                <img className="h-1/2 w-1/4 xl:h-fit xl:w-1/4 my-auto" src={service6} alt="" />
+                <img className="h-1/2 w-1/3 xl:h-fit xl:w-1/3 my-auto" src={service5} alt="" />
             </div>
-            <button className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-l-md" onClick={handleLeftArrowClick}>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-            </button>
-            <button className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-r-md" onClick={handleRightArrowClick}>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-            </button>
         </div>
     );
 }
