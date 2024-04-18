@@ -9,12 +9,12 @@ import service7 from "../assets/images/service7.jpg";
 
 function Imgsection() {
     const [offset, setOffset] = useState(0);
-    const totalImages = 4; // Total number of images
+    const totalImages = 5; // Total number of images
 
     const handleLeftArrowClick = () => {
         if (offset < 0) {
             setOffset(prevOffset => {
-                const newOffset = prevOffset + 100;
+                const newOffset = prevOffset + 50;
                 return newOffset > 0 ? 0 : newOffset;
             });
         }
@@ -32,15 +32,15 @@ function Imgsection() {
 
     return (
         <div className="relative h-fit overflow-hidden">
-            <div className="flex space-x-4" style={{ transform: `translateX(${offset}%)` }}>
+            <div className="flex space-x-4 px-16" style={{ transform: `translateX(${offset}%)` }}>
                 <div className="w-0 flex-1"></div>
-                <img className="h-full w-3/4 my-auto" src={service3} alt="" />
-                <img className="h-full w-1/3 my-auto" src={service4} alt="" />
-                <img className="h-full w-1/2 my-auto" src={service2} alt="" />
-                <img className="h-full w-1/2 my-auto" src={service1} alt="" />
-                <img className="h-full w-1/3 my-auto" src={service7} alt="" />
-                <img className="h-full w-1/3 my-auto" src={service6} alt="" />
-                <img className="h-full w-1/3 my-auto" src={service5} alt="" />
+                <img className="h-full xl:w-1/3 my-auto" src={service3} alt="" />
+                <img className="h-full xl:w-1/4 my-auto" src={service4} alt="" />
+                <img className="h-full xl:w-1/3 my-auto" src={service2} alt="" />
+                <img className="h-full xl:w-1/2 my-auto" src={service1} alt="" />
+                <img className="h-full xl:w-1/4 my-auto" src={service7} alt="" />
+                <img className="h-full xl:w-1/4 my-auto" src={service6} alt="" />
+                <img className="h-full xl:w-1/3 my-auto" src={service5} alt="" />
                 <div className="w-0 flex-1"></div>
             </div>
             <button className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-l-md" onClick={handleLeftArrowClick}>
