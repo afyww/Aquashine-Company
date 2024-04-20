@@ -22,7 +22,7 @@ function Mapsection() {
                                     style={{ border: "0" }}
                                     allowfullscreen="1"
                                     loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"
+                                    referrerPolicy="no-referrer-when-downgrade"
                                     className="w-full">
                                 </iframe>
 
