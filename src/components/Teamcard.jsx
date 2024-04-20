@@ -50,22 +50,22 @@ function Teamcard() {
     <div>
         <Slider {...settings}>
             <div>
-            <img className="h-80 xl:h-96 w-auto p-2" src={momon} alt="" />
+            <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={momon} alt="" />
             <h1 className="text-center font-bold">Momon</h1>
             <h1 className="text-center font-light">Founder & Ceo</h1>
             </div>
             <div>
-            <img className="h-80 xl:h-96 w-auto p-2" src={naufal} alt="" />
+            <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={naufal} alt="" />
             <h1 className="text-center font-bold">Momon</h1>
             <h1 className="text-center font-light">Founder & Ceo</h1>
             </div>
             <div>
-            <img className="h-80 xl:h-96 w-auto p-2" src={bili} alt="" />
+            <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={bili} alt="" />
             <h1 className="text-center font-bold">Momon</h1>
             <h1 className="text-center font-light">Founder & Ceo</h1>
             </div>
             <div>
-            <img className="h-80 xl:h-96 w-auto p-2" src={restu} alt="" />
+            <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={restu} alt="" />
             <h1 className="text-center font-bold">Momon</h1>
             <h1 className="text-center font-light">Founder & Ceo</h1>
             </div>
