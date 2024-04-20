@@ -12,12 +12,14 @@ function Expsection() {
                                 initial={{ opacity: 0, y: -20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
+                                viewport= {{ once: true }}
                             >
                                 <motion.div>
                                     <motion.h1
                                         initial={{ scale: 0 }}
                                         whileInView={{ scale: 1 }}
                                         transition={{ duration: 0.5, delay: 0.2 }}
+                                        viewport= {{ once: true }}
                                         className='text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-semibold'
                                     >
                                         4+
@@ -26,6 +28,7 @@ function Expsection() {
                                         initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }}
                                         transition={{ duration: 0.5, delay: 0.4 }}
+                                        viewport= {{ once: true }}
                                         className='text-black font-light text-xs xl:text-xl 2xl:text-2xl text-center'
                                     >
                                         Experience
@@ -36,12 +39,14 @@ function Expsection() {
                                     initial={{ opacity: 0 }}
                                     whileInView={{ opacity: 1 }}
                                     transition={{ duration: 0.5, delay: 0.6 }}
+                                    viewport= {{ once: true }}
                                     className='border-r-2 border-l-2'
                                 >
                                     <motion.h1
                                         initial={{ scale: 0 }}
                                         whileInView={{ scale: 1 }}
                                         transition={{ duration: 0.5, delay: 0.8 }}
+                                        viewport= {{ once: true }}
                                         className='text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-semibold'
                                     >
                                         99^
@@ -50,6 +55,7 @@ function Expsection() {
                                         initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }}
                                         transition={{ duration: 0.5, delay: 1 }}
+                                        viewport= {{ once: true }}
                                         className='text-black font-light text-xs xl:text-xl 2xl:text-2xl text-center'
                                     >
                                         Projects
@@ -61,6 +67,7 @@ function Expsection() {
                                         initial={{ scale: 0 }}
                                         whileInView={{ scale: 1 }}
                                         transition={{ duration: 0.5, delay: 1.2 }}
+                                        viewport= {{ once: true }}
                                         className='text-2xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center text-emerald-700 font-semibold'
                                     >
                                         99
@@ -69,6 +76,7 @@ function Expsection() {
                                         initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }}
                                         transition={{ duration: 0.5, delay: 1.4 }}
+                                        viewport= {{ once: true }}
                                         className='text-black font-light text-xs xl:text-xl 2xl:text-2xl text-center'
                                     >
                                         Customers
