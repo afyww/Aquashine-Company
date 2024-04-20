@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs"; // Import arrow icons
+import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 
 // Import images
 import service1 from "../assets/images/service4.jpg";
@@ -67,13 +67,13 @@ function Imgsection() {
                 </Slider>
                 {/* Previous and Next buttons */}
                 <div className="my-10 flex">
-                    <button className="bg-black text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickPrev()}>
-                        <BsArrowLeft
+                    <button className="bg-emerald-600 text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickPrev()}>
+                        <AiOutlineLeft
                             className="w-8 h-8"
                         />
                     </button>
-                    <button className="bg-black text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickNext()}>
-                        <BsArrowRight
+                    <button className="bg-emerald-600 text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickNext()}>
+                        <AiOutlineRight
                             className="w-8 h-8"
                         />
                     </button>
