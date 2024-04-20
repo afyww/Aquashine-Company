@@ -33,7 +33,7 @@ function Projectsection() {
               </div>
               </motion.div>
               <motion.div {...Motiony}>
-              <div className="grid grid-cols-1 bg-gray-100 rounded-2xl">
+              <div className="grid grid-cols-1">
                 <Imgsection />
               </div>
               </motion.div>

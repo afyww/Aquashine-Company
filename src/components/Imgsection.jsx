@@ -3,8 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
-
-// Import images
 import service1 from "../assets/images/service4.jpg";
 import service2 from "../assets/images/service2.png";
 import service3 from "../assets/images/service5.jpg";
@@ -65,19 +63,18 @@ function Imgsection() {
                     <img className="h-80 w-auto p-2" src={service6} alt="" />
                     <img className="h-80 w-auto p-2" src={service5} alt="" />
                 </Slider>
-                {/* Previous and Next buttons */}
-                <div className="my-10 flex">
-                    <button className="bg-emerald-600 text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickPrev()}>
-                        <AiOutlineLeft
-                            className="w-8 h-8"
-                        />
-                    </button>
-                    <button className="bg-emerald-600 text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickNext()}>
-                        <AiOutlineRight
-                            className="w-8 h-8"
-                        />
-                    </button>
-                </div>
+            </div>
+            <div className="my-10 flex">
+                <button className="bg-emerald-600 text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickPrev()}>
+                    <AiOutlineLeft
+                        className="w-8 h-8"
+                    />
+                </button>
+                <button className="bg-emerald-600 text-white mx-auto p-2 rounded-full slick-arrow" onClick={() => sliderRef.current.slickNext()}>
+                    <AiOutlineRight
+                        className="w-8 h-8"
+                    />
+                </button>
             </div>
         </div>
     );
