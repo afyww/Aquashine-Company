@@ -10,12 +10,6 @@ function Meetsection() {
         viewport: { once: true },
     };
 
-    const Motiony = {
-        initial: { opacity: 0, y: 200 },
-        whileInView: { opacity: 1, y: 0 },
-        transition: { duration: 2.0, ease: "easeInOut" },
-        viewport: { once: true },
-    };
 
 
     return (
@@ -34,11 +28,9 @@ function Meetsection() {
                                 </div>
                             </div>
                         </motion.div>
-                        <motion.div {...Motiony}>
-                            <div className="">
+                            <div className="grid grid-cols-1 bg-white rounded-b-xl">
                                 <Teamcard />
                             </div>
-                        </motion.div>
                     </div>
                 </div>
             </div>
