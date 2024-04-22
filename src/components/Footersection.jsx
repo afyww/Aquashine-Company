@@ -18,12 +18,8 @@ const Footersection = () => {
                         <div>
                             <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg 2xl:text-xl'>Our Address</h1>
                         </div>
-                        <div className='space-y-2 text-left'>
-                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#home">Home</a>
-                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#about">About</a>
-                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#service">Services</a>
-                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#project">Projects</a>
-                            <a className='block text-white text-xs xl:text-sm 2xl:text-lg' href="#contact">Contact</a>
+                        <div className='text-center'>
+                            <h1 className='block text-white text-xs xl:text-sm 2xl:text-lg'>Jl. Raya Kauman Kudu No.39, Penggaron Lor, Kec. Genuk, Kota Semarang, Jawa Tengah 50113</h1>
                         </div>
                     </div>
                     <div className='space-y-4 mx-auto col-span-2 xl:col-span-1'>
