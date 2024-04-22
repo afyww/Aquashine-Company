@@ -1,7 +1,7 @@
-import ig from '../assets/images/instagram.png'
-import wa from '../assets/images/whatsapp.png'
-import fb from '../assets/images/facebook.png'
-import gmail from '../assets/images/email.png'
+import { SiGmail } from "react-icons/si";
+import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 function Contactus() {
     return (
@@ -15,19 +15,19 @@ function Contactus() {
                     </div>
                     <div className='space-y-8 text-left'>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={ig} alt="" />
+                            <FaInstagram className="w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10" />
                             <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>shinecompany29</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={fb} alt="" />
+                            <FaFacebookSquare className="w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10" />
                             <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10' src={wa} alt="" />
+                            <IoLogoWhatsapp className="w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10" />
                             <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
                         </div>
                         <div className='flex space-x-4'>
-                            <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={gmail} alt="" />
+                            <SiGmail className="w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10" />
                             <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
                         </div>
                     </div>

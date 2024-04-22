@@ -1,8 +1,7 @@
 import logo from '../assets/images/logoaqua.png'
-import ig from '../assets/images/instagram.png'
-import wa from '../assets/images/whatsapp.png'
-import fb from '../assets/images/facebook.png'
-import gmail from '../assets/images/email.png'
+import { SiGmail } from "react-icons/si";
+import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Footersection = () => {
     return (
@@ -39,10 +38,10 @@ const Footersection = () => {
                             <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg 2xl:text-xl'>Connect With Us</h1>
                         </div>
                         <div className='flex gap-4 xl:gap-8'>
-                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={ig} alt="" />
-                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={fb} alt="" />
-                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={wa} alt="" />
-                                <img className='w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10' src={gmail} alt="" />
+                            <FaInstagram className='w-8 h-8' />
+                            <FaFacebookSquare className='w-8 h-8' />
+                            <IoLogoWhatsapp className='w-8 h-8' />
+                            <SiGmail className="w-8 h-8" />
                         </div>
 
                     </div>
