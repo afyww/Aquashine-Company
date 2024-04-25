@@ -9,6 +9,18 @@ import service5 from "../assets/images/service3.jpg";
 import service6 from "../assets/images/service6.jpg";
 import service7 from "../assets/images/service7.jpg";
 import service8 from "../assets/images/service8.jpg";
+import service9 from '../assets/images/IMG_0117.jpg';
+import service10 from '../assets/images/IMG_0358.jpg';
+import service11 from '../assets/images/IMG_1274.jpg';
+import service12 from '../assets/images/IMG_1392.jpg';
+import service13 from '../assets/images/IMG_1745.jpg';
+import service14 from '../assets/images/IMG_1893.jpg';
+import service15 from '../assets/images/IMG_2033.jpg';
+import service16 from '../assets/images/IMG_2220.jpg';
+import service17 from '../assets/images/IMG_2488.jpg';
+import service18 from '../assets/images/IMG_2492.jpg';
+import service19 from '../assets/images/IMG_2830.jpg';
+import service20 from '../assets/images/IMG_2834.jpg';
 
 function Imgsection() {
 
@@ -53,14 +65,26 @@ function Imgsection() {
         <div className="h-fit">
             <div>
                 <Slider {...settings}>
-                    <img className="h-80 w-auto p-2" src={service3} alt="" />
-                    <img className="h-80 w-auto p-2" src={service4} alt="" />
-                    <img className="h-80 w-auto p-2" src={service8} alt="" />
-                    <img className="h-80 w-auto p-2" src={service2} alt="" />
-                    <img className="h-80 w-auto p-2" src={service1} alt="" />
-                    <img className="h-80 w-auto p-2" src={service7} alt="" />
-                    <img className="h-80 w-auto p-2" src={service6} alt="" />
-                    <img className="h-80 w-auto p-2" src={service5} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service3} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service4} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service8} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service2} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service1} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service7} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service6} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service5} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service9} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service10} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service11} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service12} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service13} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service14} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service15} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service16} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service17} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service18} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service19} alt="" />
+                    <img className="h-96 w-auto p-2 mx-auto" src={service20} alt="" />
                 </Slider>
             </div>
         </div>
