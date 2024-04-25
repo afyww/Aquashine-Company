@@ -1,4 +1,4 @@
-import hero from '../assets/images/momon.jpeg'
+import hero from '../assets/images/momon3.jpg'
 import { motion } from "framer-motion";
 
 const Aboutsection = () => {
@@ -34,7 +34,7 @@ const Aboutsection = () => {
                             <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 my-auto">
                                 <motion.div {...Motiony}>
                                     <div className='my-auto'>
-                                        <img className='rounded-xl' src={hero} alt="" />
+                                        <img className='rounded-xl my-auto' src={hero} alt="" />
                                     </div>
                                 </motion.div>
                                 <motion.div {...Motionx}>

@@ -24,7 +24,7 @@ import service20 from '../assets/images/IMG_2834.jpg';
 
 function Imgsection() {
 
-    var settings = {
+    var settings1 = {
         dots: true,
         infinite: true, // Set infinite to true for auto-slide
         speed: 500,
@@ -33,6 +33,7 @@ function Imgsection() {
         initialSlide: 0,
         autoplay: true, // Enable autoplay
         autoplaySpeed: 4000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
+        rtl: false, // Set rtl to false for scrolling left
         responsive: [
             {
                 breakpoint: 1024,
@@ -60,11 +61,48 @@ function Imgsection() {
             },
         ],
     };
-    
+    var settings2 = {
+        dots: true,
+        infinite: true, // Set infinite to true for auto-slide
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        initialSlide: 0,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 4000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
+        rtl: true, // Set rtl to false for scrolling left
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    };
+
     return (
         <div className="h-fit">
             <div>
-                <Slider {...settings}>
+                <Slider {...settings1}>
                     <img className="h-96 w-auto p-2 mx-auto" src={service3} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service4} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service8} alt="" />
@@ -75,6 +113,10 @@ function Imgsection() {
                     <img className="h-96 w-auto p-2 mx-auto" src={service5} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service9} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service10} alt="" />
+                </Slider>
+            </div>
+            <div>
+                <Slider {...settings2}>
                     <img className="h-96 w-auto p-2 mx-auto" src={service11} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service12} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service13} alt="" />
