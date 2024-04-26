@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import service1 from '../assets/images/service4.jpg'
+import paludarium from '../assets/images/paludarium.jpeg'
 
 function Servicesection() {
 
@@ -59,7 +60,7 @@ function Servicesection() {
                 </div>
                 <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={paludarium} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
