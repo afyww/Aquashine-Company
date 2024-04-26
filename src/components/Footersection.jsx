@@ -38,7 +38,7 @@ const Footersection = () => {
                             <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg 2xl:text-xl'>Connect With Us</h1>
                         </div>
                         <div className='flex gap-4 xl:gap-8'>
-                            <FaInstagram className='w-8 h-8' />
+                            <FaInstagram className='text-white w-8 h-8' />
                             <FaFacebookSquare className='w-8 h-8' />
                             <IoLogoWhatsapp className='w-8 h-8' />
                             <SiGmail className="w-8 h-8" />
