@@ -6,7 +6,7 @@ import aquascape from '../assets/images/IMG_2883.jpg'
 import sungai from '../assets/images/IMG_4688.jpg'
 import maintenance from '../assets/images/IMG_4680.jpg'
 import kandang from '../assets/images/IMG-20240416-WA0009.jpg'
-import kolam from '../assets/images/kolam.jpeg'
+import kolam from '../assets/images/kolammm.jpeg'
 
 function Servicesection() {
 
