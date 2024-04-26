@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
-import landscape from '../assets/images/service4.jpg'
+import landscape from '../assets/images/IMG_20240416_215017.jpg'
 import paludarium from '../assets/images/paludarium.jpeg'
 import aviary from '../assets/images/IMG_9488.jpg'
 import aquascape from '../assets/images/IMG_2883.jpg'
 import sungai from '../assets/images/IMG_4688.jpg'
 import maintenance from '../assets/images/IMG_4680.jpg'
+import kandang from '../assets/images/IMG-20240416-WA0009.jpg'
+import kolam from '../assets/images/kolam.jpeg'
 
 function Servicesection() {
 
@@ -191,7 +193,7 @@ function Servicesection() {
                 </div>
               <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={landscape} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={kolam} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -240,7 +242,7 @@ function Servicesection() {
                 </div>
                 <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={landscape} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={kandang} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
