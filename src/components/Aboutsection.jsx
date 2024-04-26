@@ -16,7 +16,7 @@ const Aboutsection = () => {
         transition: { type: 'spring' },
         viewport: { once: true },
     };
-    
+
     return (
         <section id="about">
             <div className="grid grid-cols-1 bg-gray-100 py-20 xl:py-36">
@@ -42,14 +42,7 @@ const Aboutsection = () => {
                                         <div className=''>
                                             <h1 className='text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl text-left text-emerald-700 font-semibold'>Berpengelaman Lebih Dari 4 Tahun</h1>
                                         </div>
-                                        <h1 className="font-light text-xs lg:text-xl xl:text-xl 2xl:text-3xl text-black">Aquashine berdiri pada tahun 2019 yang didirikan oleh Devian Rizky Ananta,
-                                            tahun 2019 akhir.Aquashine mendirikan toko pertamanya yang terletak di Jl.Kauman Kudu Raya.
-                                            Pada awal berdiriya aquashine mengerjakan proyek-proyek aquarium, seperti merancang aquascape,
-                                            palidarium, terrarium dan vivarium. Seiring berkembangnya pasar aquashine mencoba mengerjakan
-                                            proyek pembangunan kolam ditahun 2020. Di tahun 2022 aquashine membuka jabang di jalan woltermonginsidi
-                                            yang berfokus menjual peralatan aquarium, ikan, dan lain debagainya. Di tahun itu juga aquashine mulai
-                                            menggerjakan proyek lanjutan yaitu pembuatan lingkungan hutan buatan di dalam maupun di luar ruangan seperti
-                                            taman, aviary, dan vertical garden.
+                                        <h1 className="font-light text-xs lg:text-xl xl:text-xl 2xl:text-3xl text-black">Aquashine berdiri pada tahun 2019 yang didirikan oleh Devian Rizky Ananta, tahun 2019 akhir. Aquashine mendirikan toko pertamanya yang terletak di Jl.Kauman Kudu Raya. Pada awal berdiriya aquashine mengerjakan proyek-proyek aquarium, seperti merancang aquascape, palidarium, terrarium dan vivarium. Seiring berkembangnya pasar, aquashine mencoba mengerjakan proyek pembangunan kolam ditahun 2020. Di tahun 2022 aquashine membuka jabang di jalan woltermonginsidi yang berfokus menjual peralatan aquarium, ikan, dan lain sebagainya. Di tahun itu juga aquashine mulai menggerjakan proyek lanjutan yaitu pembuatan lingkungan hutan buatan di dalam maupun di luar ruangan seperti taman, aviary, dan vertical garden.
                                         </h1>
                                         <div className='flex space-x-6'>
                                             <div className='border-b-2 border-emerald-400'>
