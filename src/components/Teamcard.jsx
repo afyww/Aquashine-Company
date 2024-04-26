@@ -18,13 +18,13 @@ function Teamcard() {
             <div className='grid grid-cols-1 xl:grid-cols-4'>
                 <div>
                     <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={naufal} alt="" />
-                    <h1 className="text-center font-bold">Momon</h1>
-                    <h1 className="text-center font-light">Founder & Ceo</h1>
+                    <h1 className="text-center font-bold">Farkhan Naufal Ma'arif</h1>
+                    <h1 className="text-center font-light">Coordinator Aquatic</h1>
                 </div>
                 <div>
                     <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={bili} alt="" />
-                    <h1 className="text-center font-bold">Momon</h1>
-                    <h1 className="text-center font-light">Founder & Ceo</h1>
+                    <h1 className="text-center font-bold">Billy Risma A</h1>
+                    <h1 className="text-center font-light"></h1>
                 </div>
                 <div>
                     <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={restu} alt="" />
