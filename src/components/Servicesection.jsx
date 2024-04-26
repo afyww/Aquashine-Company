@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
-import service1 from '../assets/images/service4.jpg'
+import landscape from '../assets/images/service4.jpg'
 import paludarium from '../assets/images/paludarium.jpeg'
+import aviary from '../assets/images/IMG_9488.jpg'
+import aquascape from '../assets/images/IMG_2883.jpg'
+import sungai from '../assets/images/IMG_4688.jpg'
 
 function Servicesection() {
 
@@ -35,7 +38,7 @@ function Servicesection() {
               <div className="grid grid-cols-1 xl:grid-cols-4 p-2 xl:p-8 gap-5 rounded-2xl">
                 <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={aquascape} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -85,7 +88,7 @@ function Servicesection() {
                 </div>
                 <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={landscape} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -110,7 +113,7 @@ function Servicesection() {
                 </div>
                 <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={aviary} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -137,7 +140,7 @@ function Servicesection() {
               <div className="grid grid-cols-1 xl:grid-cols-4 p-2 xl:p-8 gap-5 rounded-2xl">
               <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={landscape} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -162,7 +165,7 @@ function Servicesection() {
                 </div>
               <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={sungai} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -187,7 +190,7 @@ function Servicesection() {
                 </div>
               <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={landscape} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -212,7 +215,7 @@ function Servicesection() {
                 </div>
               <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={landscape} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
@@ -237,7 +240,7 @@ function Servicesection() {
                 </div>
               <div className="">
                   <motion.div {...Motiony}>
-                    <img className="rounded-xl h-1/2 w-full" src={service1} alt=""
+                    <img className="rounded-xl h-1/2 w-full" src={landscape} alt=""
                     />
                   </motion.div>
                   <div className="p-4 space-y-4 xl:space-y-8 rounded-b-xl">
