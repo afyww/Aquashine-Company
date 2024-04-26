@@ -25,14 +25,14 @@ import service20 from '../assets/images/IMG_2834.jpg';
 function Imgsection() {
 
     var settings1 = {
-        dots: true,
+        dots: false,
         infinite: true, // Set infinite to true for auto-slide
-        speed: 500,
+        speed: 300,
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 4000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
+        autoplaySpeed: 2000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
         rtl: false, // Set rtl to false for scrolling left
         responsive: [
             {
@@ -41,7 +41,7 @@ function Imgsection() {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true,
+                    dots: false,
                 },
             },
             {
@@ -62,14 +62,14 @@ function Imgsection() {
         ],
     };
     var settings2 = {
-        dots: true,
+        dots: false,
         infinite: true, // Set infinite to true for auto-slide
-        speed: 500,
+        speed: 300,
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 4000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
+        autoplaySpeed: 2000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
         rtl: true, // Set rtl to false for scrolling left
         responsive: [
             {
@@ -78,7 +78,7 @@ function Imgsection() {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true,
+                    dots: false,
                 },
             },
             {
