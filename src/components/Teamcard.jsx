@@ -24,17 +24,17 @@ function Teamcard() {
                 <div>
                     <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={bili} alt="" />
                     <h1 className="text-center font-bold">Billy Risma A</h1>
-                    <h1 className="text-center font-light"></h1>
+                    <h1 className="text-center font-light">Marketing & Advertising</h1>
                 </div>
                 <div>
                     <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={restu} alt="" />
-                    <h1 className="text-center font-bold">Momon</h1>
-                    <h1 className="text-center font-light">Founder & Ceo</h1>
+                    <h1 className="text-center font-bold">Restu</h1>
+                    <h1 className="text-center font-light">Aquascaper's</h1>
                 </div>
                 <div>
                     <img className="h-80 xl:h-96 w-auto p-2 mx-auto" src={bangjek} alt="" />
-                    <h1 className="text-center font-bold">Momon</h1>
-                    <h1 className="text-center font-light">Founder & Ceo</h1>
+                    <h1 className="text-center font-bold">Mat Jaidun</h1>
+                    <h1 className="text-center font-light">Coordinator's</h1>
                 </div>
             </div>
         </div>
