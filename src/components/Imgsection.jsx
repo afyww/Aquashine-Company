@@ -6,7 +6,6 @@ import service2 from "../assets/images/service2.png";
 import service3 from "../assets/images/service5.jpg";
 import service4 from "../assets/images/service1.jpg";
 import service5 from "../assets/images/service3.jpg";
-import service6 from "../assets/images/service6.jpg";
 import service7 from "../assets/images/service7.jpg";
 import service8 from "../assets/images/service8.jpg";
 import service9 from '../assets/images/IMG_0117.jpg';
@@ -109,7 +108,6 @@ function Imgsection() {
                     <img className="h-96 w-auto p-2 mx-auto" src={service2} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service1} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service7} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service6} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service5} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service9} alt="" />
                     <img className="h-96 w-auto p-2 mx-auto" src={service10} alt="" />

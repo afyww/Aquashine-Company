@@ -30,9 +30,8 @@ const Herosection = () => {
                     <div className="absolute inset-0 mx-4 flex items-center justify-start">
                         <div className='w-2/3 xl:w-3/6 space-y-4 xl:space-y-8 2xl:space-y-12'>
                             <h1 className="text-xl lg:text-5xl xl:text-5xl 2xl:text-6xl text-white font-semibold font-sans text-left">
-                                we are the solution for your <span className="text-xl lg:text-5xl xl:text-5xl 2xl:text-6xl text-emerald-400 font-semibold font-sans text-left">interior and exterior garden</span>
+                                transforming visions into reality: <span className="text-xl lg:text-5xl xl:text-5xl 2xl:text-6xl text-emerald-400 font-semibold font-sans text-left">crafting excellent in contstruction artistry</span>
                             </h1>
-                            <p className="text-xs lg:text-sm xl:text-lg 2xl:text-xl text-white font-medium text-left">Kami menerima berbagai macam bentuk project jasa pembuatan aquascape, paludarium, marine, terrarium, garden, kolam dan lain lain.</p>
                         </div>
                     </div>
                 </div>

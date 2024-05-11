@@ -11,7 +11,7 @@ function Projectsection() {
   };
 
   const Motiony = {
-    initial: { opacity: 0, y: 200 },
+    initial: { opacity: 0, y: 100 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 2.0, ease: "easeInOut" },
     viewport: { once: true },

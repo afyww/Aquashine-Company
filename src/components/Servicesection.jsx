@@ -18,11 +18,11 @@ function Servicesection() {
   };
 
   const Motiony = {
-    initial: { rotate: 360 },
-    whileInView: { rotate: -1 },
-    transition: { type: 'spring' },
+    initial: { opacity: 0, y: 100 },
+    whileInView: { opacity: 1, y: 0 },
+    transition: { duration: 1.5, ease: "easeInOut" },
     viewport: { once: true },
-  };
+};
 
   return (
     <section id='service'>

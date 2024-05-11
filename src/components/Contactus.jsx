@@ -20,15 +20,15 @@ function Contactus() {
                         </div>
                         <div className='flex space-x-4'>
                             <FaFacebookSquare className="w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10" />
-                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
+                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>shineshine</h1>
                         </div>
                         <div className='flex space-x-4'>
                             <IoLogoWhatsapp className="w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10" />
-                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
+                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>089501899763</h1>
                         </div>
                         <div className='flex space-x-4'>
                             <SiGmail className="w-5 h-5 xl:w-8 xl:h-8 2xl:h-10 2xl:w-10" />
-                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>Shinecompany</h1>
+                            <h1 className='my-auto text-sm xl:text-lg 2xl:text-xl text-black'>aquashinesmg@gmail.com</h1>
                         </div>
                     </div>
                 </div>

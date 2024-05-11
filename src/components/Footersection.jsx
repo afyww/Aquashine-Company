@@ -38,10 +38,18 @@ const Footersection = () => {
                             <h1 className='font-semibold text-emerald-600 text-center text-xs xl:text-lg 2xl:text-xl'>Connect With Us</h1>
                         </div>
                         <div className='flex gap-4 xl:gap-8'>
-                            <FaInstagram className='text-white w-8 h-8' />
-                            <FaFacebookSquare className='text-white w-8 h-8' />
-                            <IoLogoWhatsapp className='text-white w-8 h-8' />
-                            <SiGmail className="text-white w-8 h-8" />
+                            <a href="https://www.instagram.com/shinecompany29/">
+                                <FaInstagram className='text-white w-8 h-8' />
+                            </a>
+                            <a href="https://www.facebook.com/vian.bastian.188?locale=id_ID">
+                                <FaFacebookSquare className='text-white w-8 h-8' />
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=6289501899763&text&type=phone_number&app_absent=0">
+                                <IoLogoWhatsapp className='text-white w-8 h-8' />
+                            </a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aquashinesmg@gmail.com">
+                                <SiGmail className="text-white w-8 h-8" />
+                            </a>
                         </div>
 
                     </div>
