@@ -25,106 +25,55 @@ function Imgsection() {
 
     var settings1 = {
         dots: false,
-        infinite: true, // Set infinite to true for auto-slide
-        speed: 300,
+        infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
-        initialSlide: 0,
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
-        rtl: false, // Set rtl to false for scrolling left
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    dots: false,
-                },
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
+        autoplay: true,
+        speed: 5000,
+        autoplaySpeed: 5000,
+        cssEase: "linear",
+        arrows: false // This line removes the arrows
     };
     var settings2 = {
         dots: false,
-        infinite: true, // Set infinite to true for auto-slide
-        speed: 300,
+        infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
-        initialSlide: 0,
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000, // Set the autoplay speed in milliseconds (e.g., 2000ms = 2 seconds)
-        rtl: true, // Set rtl to false for scrolling left
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    dots: false,
-                },
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
+        autoplay: true,
+        speed: 5000,
+        rtl: true,
+        autoplaySpeed: 5000,
+        cssEase: "linear",
+        arrows: false // This line removes the arrows
     };
 
     return (
         <div className="h-fit">
             <div>
                 <Slider {...settings1}>
-                    <img className="h-96 w-auto p-2 mx-auto" src={service3} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service4} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service8} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service2} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service1} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service7} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service5} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service9} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service10} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service3} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service4} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service8} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service2} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service1} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service7} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service5} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service9} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service10} alt="" />
                 </Slider>
             </div>
             <div>
                 <Slider {...settings2}>
-                    <img className="h-96 w-auto p-2 mx-auto" src={service11} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service12} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service13} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service14} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service15} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service16} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service17} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service18} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service19} alt="" />
-                    <img className="h-96 w-auto p-2 mx-auto" src={service20} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service11} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service12} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service13} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service14} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service15} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service16} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service17} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service18} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service19} alt="" />
+                    <img className="xl:h-96 h-52 w-auto p-2 mx-auto" src={service20} alt="" />
                 </Slider>
             </div>
         </div>
