@@ -27,10 +27,10 @@ function Meetsection() {
                                     </div>
                                 </div>
                             </div>
-                        </motion.div>
                             <div className="grid grid-cols-1 bg-white rounded-b-xl">
                                 <Teamcard />
                             </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>
