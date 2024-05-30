@@ -28,8 +28,8 @@ function Imgsection() {
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: true,
-        speed: 5000,
-        autoplaySpeed: 5000,
+        speed: 10000,
+        autoplaySpeed: 0,
         cssEase: "linear",
         arrows: false,
         responsive: [
